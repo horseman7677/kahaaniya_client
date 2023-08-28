@@ -18,7 +18,7 @@ const StoryCard = () => {
   const [date, setDate] = useState("");
 
   useState(() => {
-    axios.get("http://localhost:8080/kahaani/all-story").then((res) => {
+    axios.get("http://13.50.104.79:8080/kahaani/all-story").then((res) => {
       // console.log(res.data);
       setStory(res.data);
     });

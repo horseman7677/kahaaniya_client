@@ -10,7 +10,7 @@ const StoryPage = (ctx) => {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:8080/kahaani/byId/${ctx.params.id}`)
+      .get(`http://13.50.104.79:8080/kahaani/byId/${ctx.params.id}`)
       .then((res) => {
         // console.log(res.data);
         setStory(res.data);
