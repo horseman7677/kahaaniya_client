@@ -22,6 +22,7 @@ const Admin = () => {
   const handlePost = () => {
     axios.post("https://kahaani.onrender.com/kahaani/post", story).then((res) => {
       console.log(res.status);
+	  setStory(initialState);
     });
   };
   return (
