@@ -18,8 +18,8 @@ const StoryCard = () => {
   const [date, setDate] = useState("");
 
   useState(() => {
-    axios.get("http://13.50.104.79:8080/kahaani/all-story").then((res) => {
-      // console.log(res.data);
+    axios.get("https://kahaani.onrender.com/kahaani/all-story").then((res) => {
+      // console.log(res.data);13.50.104.79:8080
       setStory(res.data);
     });
   }, []);
