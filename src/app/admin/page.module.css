@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi:ital@0;1&display=swap");
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+.wrapper {
+  border: 1px solid blanchedalmond;
+  box-shadow: 2px 3px 8px 6px rgba(0, 0, 0, 0.1);
+}
+.heading {
+  font-family: "Tiro Devanagari Hindi", serif;
+  padding: 10px;
+}
+.btn {
+}
