@@ -20,7 +20,7 @@ const Admin = () => {
   };
 
   const handlePost = () => {
-    axios.post("http://13.50.104.79:8080/kahaani/post", story).then((res) => {
+    axios.post("https://kahaani.onrender.com/kahaani/post", story).then((res) => {
       console.log(res.status);
     });
   };
